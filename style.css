@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x:hidden;
+}
+body{
+    margin-left: 50px;
+}
+h2{
+    font-size: 30px;
+    color: rgb(3, 3, 70);
+    margin-top: 50px;
+}
+.image{
+    width: 700px;
+    margin-top: 50px;
+    position: relative;
+    filter: blur(2px);
+}
+.image img{
+    width: 100%;
+}
+.text{
+    width: 700px;
+    text-align: center;
+    background-color: rgb(109, 156, 109);
+    padding: 20px 0px;
+    position: absolute;
+    top:400px
+}
+.text h3{
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.945);
+}
