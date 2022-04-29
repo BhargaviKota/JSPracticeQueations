@@ -136,3 +136,12 @@
 // }else{
 //     console.log("You got F that means your Fail in the examination")
 // }
+
+// 11. to convert 1000 minutes in hours
+
+let timeCovertion=(min)=>{
+    let hour= (min/60).toFixed(2)
+    console.log(`${min} mins means ${hour} hrs`)
+}
+
+timeCovertion(2000)
